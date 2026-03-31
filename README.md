@@ -1,0 +1,40 @@
+# React Webshop Template
+
+**Important:** This project is still in early development. There is a lot of testing/debug code present, and most things are unfinished/messy. Since I'm still learning React, don't expect much progress, though I will definitely be working on this daily.
+
+---
+
+## Why I'm Making This
+I'm making this project as a way to get better at creating web applications with React. I primarily work with SvelteKit in other projects, however the industry seems to be leaning towards React. This project also utilizes another project of mine, being my [Headless Webshop API](https://github.com/basileaelterman/Headless-Webshop-API). This way I can actually make use of that project too to see if everything works as expected.
+
+## Tech Stack
+- **Languages:** TypeScript
+- **Frameworks:** ReactJS, TailwindCSS
+
+---
+
+Curious to see how things are looking right now? Feel free to clone this project:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/basileaelterman/react-webshop-template.git
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run that thang:**
+   ```bash
+   npm start
+   # or
+   npm run dev
+   ```
+
+...aaaaand you're done! Feel free to make changes, continue building from where I left off or whatever you feel like doing with it. If you find any problems or bugs (even if small), make sure to let me know by creating an issue or creating a pull request. Thanks in advance!
+
+---
+
+## [LICENSE](LICENSE)
+This project is available under the [MIT-LICENSE](LICENSE). Too unbothered to fully explain what you can or cannot do with projects under this license, so feel free to read the license. 😉
