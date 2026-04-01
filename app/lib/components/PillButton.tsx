@@ -1,6 +1,6 @@
 import type { ReactElement } from "react";
 
-export default function PillButton({ children }: { children: React.ReactNode }): ReactElement<HTMLButtonElement> {
+export default function PillButton({ children, onClick }: { children: React.ReactNode, onClick: () => {} }): ReactElement<HTMLButtonElement> {
 
 
     return (
@@ -8,6 +8,7 @@ export default function PillButton({ children }: { children: React.ReactNode }):
                            rounded-full mx-auto
                            flex justify-center items-center
                            group cursor-pointer"
+                onClick={ onClick }
         >
             <span className="absolute h-full w-full scale-z-90
                              bg-gray-200 rounded-full

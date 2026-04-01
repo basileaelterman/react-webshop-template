@@ -9,7 +9,7 @@ export default function IconButton({ children }: { children: React.ReactNode }):
         >
             <span className="absolute h-full w-full scale-z-90
                              bg-gray-100 rounded-full
-                             scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-100 ease-out
+                             scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-150 ease
                              group-active:bg-gray-200"
             ></span>
             

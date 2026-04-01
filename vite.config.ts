@@ -12,4 +12,16 @@ export default defineConfig({
     svgr({
       include: "**/*.svg?react",
     })],
+  server: {
+    proxy: {
+      '/productsapi': {
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+      },
+      '/productapi': {
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+      },
+    },
+  },
 });

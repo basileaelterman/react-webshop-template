@@ -10,9 +10,9 @@ import SearchBar from "./SearchBar";
 
 export default function Header(): ReactElement<HTMLHeadElement> {
     return (
-        <header className="flex justify-between p-5 items-center max-w-300 mx-auto">
+        <header className="flex justify-between px-10 py-5 items-center max-w-300 mx-auto">
             <a className="text-2xl font-medium"
-               href="/"
+               href="/products"
                target="_self"
             >
                 My webshop

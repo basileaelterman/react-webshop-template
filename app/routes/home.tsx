@@ -1,3 +1,4 @@
+import Header from "~/lib/components/Header";
 import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
@@ -9,6 +10,10 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <p>Home</p>
+    <>
+      <Header />
+
+      <p>Home</p>
+    </>
   );
 }
