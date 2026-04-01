@@ -14,11 +14,11 @@ export default defineConfig({
     })],
   server: {
     proxy: {
-      '/productsapi': {
+      '/api/products': {
         target: 'http://localhost:8000',
         changeOrigin: true,
       },
-      '/productapi': {
+      '/api/product': {
         target: 'http://localhost:8000',
         changeOrigin: true,
       },

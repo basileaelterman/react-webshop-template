@@ -53,10 +53,8 @@ export default function Results() {
 		<>
 			<Header />
 
-			<main className="max-w-300 mx-auto mt-25 px-10 grid grid-cols-[auto_1fr] gap-10">
-				<aside className="w-75 h-[80vh] rounded-2xl sticky top-[10vh] bg-gray-100">
-					
-				</aside>
+			<main className="max-w-300 mx-auto mt-25 px-10 grid lg:grid-cols-[auto_1fr] gap-10">
+				<aside className="w-full h-100 lg:w-75 lg:h-[80vh] rounded-2xl lg:sticky top-[10vh] bg-gray-100"></aside>
 
 				<section>
 					<ul className="grid grid-flow-row gap-10 mb-10">

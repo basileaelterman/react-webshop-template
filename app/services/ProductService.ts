@@ -1,7 +1,7 @@
 import { HTTP } from "~/helpers/http";
 
 export async function fetchProducts(quantity: number, query: string | null = null, token: string | null = null): Promise<any[]> {
-    const url = 'http://localhost:5173/productsapi';
+    const url = '/api/products';
 
     if (!url) {
         throw new Error('No API found in environment file', { 
@@ -42,7 +42,7 @@ export async function fetchProducts(quantity: number, query: string | null = nul
 }
 
 export async function fetchProduct(slug: string): Promise<any> {
-    const url = 'http://localhost:5173/productapi';
+    const url = '/api/product';
 
     if (!url) {
         throw new Error('No API found in environment file', {
