@@ -1,11 +1,11 @@
 # React Webshop Template
 
-**Important:** This project is still in early development. There is a lot of testing/debug code present, and most things are unfinished/messy. Since I'm still learning React, don't expect much progress, though I will definitely be working on this daily.
+**Important:** This project is still in early development. There is a lot of testing/debug code present, and most things are unfinished/messy. Since I'm still learning React, don't expect much. I will definitely be working on this daily so feel free to check in once in a while.
 
 ---
 
 ## Why I'm Making This
-I'm making this project as a way to get better at creating web applications with React. I primarily work with SvelteKit in other projects, however the industry seems to be leaning towards React. This project also utilizes another project of mine, being my [Headless Webshop API](https://github.com/basileaelterman/Headless-Webshop-API). This way I can actually make use of that project too to see if everything works as expected.
+I'm making this project as a way to get better at creating web applications with React. I primarily work with SvelteKit in other projects, however the industry seems to prefer React. This project also utilizes another project of mine, being my [Webshop API](https://github.com/basileaelterman/webshop-api). This way I can actually make use of that project too to see if everything works as intended.
 
 ## Tech Stack
 - **Languages:** TypeScript
@@ -32,7 +32,7 @@ Curious to see how things are looking right now? Feel free to clone this project
    npm run dev
    ```
 
-...aaaaand you're done! Feel free to make changes, continue building from where I left off or whatever you feel like doing with it. If you find any problems or bugs (even if small), make sure to let me know by creating an issue or creating a pull request. Thanks in advance!
+...aaaaand you're done! Feel free to make changes, continue building from where I left off or do whatever you feel like doing with it. If you find any problems or bugs (even if small), make sure to let me know by creating an issue, sending me an [email](mailto:basile.aelterman@email.com) or by fixing it yourself via a pull request. Thanks in advance!
 
 ---
 
