@@ -1,6 +1,6 @@
 # React Webshop Template
 
-**Important:** This project is still in early development. There is a lot of testing/debug code present, and most things are unfinished/messy. Since I'm still learning React, don't expect much. I will definitely be working on this daily so feel free to check in once in a while.
+**Important:** This project is currently on pause due to me working on a different (now private) project that would make this project (and another) easier to manage and create.
 
 ---
 
